@@ -17,12 +17,33 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-color);
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
 }
 
 .conatiner {
-  background-color: var(--background-color);
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {
@@ -32,36 +53,68 @@ body {
 .item {
 }
 /*================== LINK =================*/
+
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.nav {
+  display: flex;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  padding: 15px 0;
+}
+
+.logo-link {
+  margin-right: 76px;
+  padding: 15px 0;
+}
+
 .link {
   text-decoration: none;
   color: var(--title-color);
+  font-style: normal;
+}
+
+.nav .link {
 }
 
 .nav-link {
   text-decoration: none;
   font-weight: 500;
-
 }
 
-.nav-link:hover ,
+.nav-link:hover,
 .nav-link:focus {
   color: var(--nav-color);
   text-decoration: underline;
 }
 
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 
-.contacts .link {
+.address .link {
   color: var(--body-color);
 }
 
-.contacts,
-.link:hover,
+.address .link:hover,
 .link:focus {
   color: var(--nav-color);
 }
 
 .contacts {
-  font-style: normal
+  font-style: normal;
 }
 
 .header-text {
@@ -90,7 +143,6 @@ body {
   text-align: center;
   align-items: center;
   letter-spacing: 0.03em;
-  display: flex;
 }
 
 .logo-web {
@@ -99,7 +151,7 @@ body {
 /*================== BUTTON =================*/
 
 .button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
   color: var(--logo-color);
   font-size: 16px;
@@ -119,17 +171,15 @@ body {
 }
 
 .hero-button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: var(--background-color);
+ 
 }
 
 .hero-button:hover,
@@ -144,13 +194,21 @@ body {
   text-align: center;
 }
 
+.hero-container {
+  padding: 188px 472px;
+}
+
 .hero-title {
-  font-size: 56px;
-  font-weight: 700;
+  font-family: "Roboto";
   font-style: normal;
-  line-height: 1.07;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  width: 496px;
+  height: 120px;
 }
 
 .hero-str {
