@@ -401,6 +401,7 @@ img {
   border: 1px solid #e7e9fc;
 }
 .portfolio-content-item {
+  display: flex;
   width: calc((100% - 48px) / 3);
 }
 
