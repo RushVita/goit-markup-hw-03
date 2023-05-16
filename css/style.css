@@ -327,13 +327,11 @@ img {
 
 /* Footer */
 .footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--footer-background-color);
 }
 .footer .logo {
